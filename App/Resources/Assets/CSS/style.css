@@ -1,0 +1,116 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.resized{
+    max-width:60px;
+}
+.resized-md{
+    max-width: 120px;
+}
+.resized-sm{
+    max-width: 30px;
+}
+.resized-md-sm{
+    max-width: 25px;
+}
+
+.resized-x-sm{
+    max-width: 15px;
+}
+
+.card-img-overlay{
+    background: linear-gradient(120deg,rgba(215, 185, 185, 0.608),rgba(249, 247, 247, 0.564), rgba(166, 159, 159, 0.54),rgba(234, 228, 228, 0.482));
+}
+.default-heading-color{
+    color:rgb(91, 29, 29);
+}
+.default-paragraph-color{
+    color:rgb(94, 1, 1);
+}
+.default-paragraph-font-size{
+    font-size: 1rem;
+}
+.default-bold-font-weight{
+    font-weight:bold;
+}
+
+
+.header-intro-heading{
+    color:rgb(91, 29, 29);
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.header-preamble{
+    color:rgb(32, 8, 8);
+    font-size:1rem;
+    font-weight:bold;
+}
+/* 
+.header-img-resized{
+    width:2420px !important;
+    height:900px !important;
+} */
+
+.header-paragraph{
+    color:rgb(94, 1, 1);
+}
+
+.header-card-heading{
+    color:rgb(94, 1, 1);
+    font-weight:650;
+}
+.header-description-heading{
+    font-size:2rem;
+    color:rgb(109, 17, 17);
+    font-weight: 600;
+}
+.header-form-heading{
+    color:rgb(91, 29, 29);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.list-style-none{
+    list-style-type:none;
+}
+
+.footer-list{
+    list-style-type: none; 
+    margin:0; 
+    padding:0;
+}
+.card-img{
+    height:100%;
+}
+.bg-translucent{
+    background-color: rgba(255, 255, 255, 0.845) !important;
+}
+
+.mt-lg-n5{
+    margin-top: -9.5rem;
+}
+
+.overlay-background{
+    background: linear-gradient(10deg,rgba(223, 130, 130, 0.168), rgba(219, 188, 188, 0.399), rgba(219, 191, 191, 0.722),rgba(234, 198, 198, 0.218), rgba(223, 130, 130, 0.349) );
+}
+@media screen and (max-width:468px) {
+.footer-position-bottom{
+        bottom: -178rem;
+}
+
+.header-intro-heading{
+    font-size: 2.0rem;
+    font-weight: bolder;
+}
+    
+.header-img-resized{
+    height:800px !important;
+}
+}
+
+@media screen and (min-width:992px){
+    .more-margin{
+        margin-left: 7rem;
+    }
+}
